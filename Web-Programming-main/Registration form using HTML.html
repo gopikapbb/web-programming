@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>freshersform</title>
+<style>
+h4{background-color:yellow;color:red;width:fit-content}
+table{background-color:rgb(212, 209, 209)}
+.reset{color:white;background-color: red;height:2em;width:5em;border:0ch}
+.submit{color:white;background-color:green;height:2em;width:5em;border:0ch;}
+</style>
+</head>
+<body>
+<header>
+<marquee id="headm"
+direction="left"behavior=""scrollamount="5"onmouseover="this.stop()"onmouseout="this.st
+art()" >
+<h4><b>WELCOME TO FRESHERS WORLD!!!</b></h4>
+</marquee>
+</header>
+<center>
+<table border="1"cellpadding="10"cellspacing="0"width="75%"height="">
+<tr>
+<th colspan="3"><b>REGISTRATION FORM</b></th>
+</tr>
+<tr>
+<td>NAME</td>
+<td colspan="2"><input type="text"id="name"name="name"/></td>
+</tr>
+<tr>
+<td>AGE</td>
+<td colspan="2">
+<select>
+<option>SELECT</option>
+<option></option>
+</select>
+</td>
+</tr>
+<tr>
+<td>PASSWORD</td>
+<td colspan="2"><input type="password"id="pass"name="pass"/></td>
+</tr>
+<tr>
+<td>RETYPE PASSWORD</td>
+<td colspan="2"><input type="password"id="pass"name="pass"/></td>
+</tr>
+<tr>
+<td rowspan="4">SELECT YOUR SECURITY QUESTION</td>
+<td colspan="2"><input type="radio"id="ques"name="ques"/>What is your pet
+name?</td>
+<tr>
+<td colspan="2"><input type="radio"id="ques"name="ques"/>Who is your best
+friend?</td>
+</tr>
+<tr>
+<td colspan="2"><input type="radio"id="ques"name="ques"/>What is your
+favourite color?</td>
+</tr>
+<td colspan="2"><input type="radio"id="ques"name="ques"/>Who is your
+favourite teacher?</td>
+</tr>
+<tr>
+<td>ANSWER OF SECURITY QUESTION</td>
+<td colspan="2"><input type="text"id="que"name="que"/></td>
+</tr>
+<tr>
+<td>EMAIL ID</td>
+<td colspan="2"><input type="email"id="email"name="email"/></td>
+</tr>
+<tr>
+<td>LANGUAGES KNOWNS</td>
+<td colspan="2">
+<input type="checkbox"id="lan"name="lan"/>MALAYALAM
+<input type="checkbox"id="lan"name="lan"/>ENGLISH
+<input type="checkbox"id="lan"name="lan"/>HINDI
+</td>
+</tr>
+<tr>
+<td rowspan="2">PHONE NUMBER</td>
+<td>Home</td>
+<td>Office</td>
+<tr>
+<td><input type="tel"id="home"name="home"/></td>
+<td><input type="tel"id="office"name="office"/></td>
+</tr>
+</tr>
+<tr>
+<td>UPLOAD CV</td>
+<td colspan="2"><input type="file"id="cv"name="cv"value="Choose File"/></td>
+</tr>
+<tr>
+<td><center><input
+type="reset"id="reset"name="reset"value="Reset"class="reset"/></center></td>
+<td colspan="2"><center><input
+type="submit"id="submit"name="submit"value="Submit"class="submit"/></center></td>
+</tr>
+</table>
+</center>
+</body>
+</html>
